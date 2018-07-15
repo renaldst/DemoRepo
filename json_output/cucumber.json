@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Create a Formatting ticket in JIRA",
+        "description": "",
+        "id": "jira-ticket-creation;create-a-formatting-ticket-in-jira",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16118987281,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens browser",
+            "match": {
+              "location": "creatingFormattingTicket.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15096364,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on JIRA homepage",
+            "match": {
+              "location": "creatingFormattingTicket.user_is_on_JIRA_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7720712363,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enters username and password",
+            "match": {
+              "location": "creatingFormattingTicket.enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8056570979,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on Submit button",
+            "match": {
+              "location": "creatingFormattingTicket.user_clicks_on_Submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 403628483,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clicks on Create button to create JIRA ticket",
+            "match": {
+              "location": "creatingFormattingTicket.clicks_on_Create_button_to_create_JIRA_ticket()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53963854852,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters information for JIRA ticket",
+            "match": {
+              "location": "creatingFormattingTicket.user_enters_information_for_JIRA_ticket()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36592,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user creates JIRA ticket",
+            "match": {
+              "location": "creatingFormattingTicket.user_creates_JIRA_ticket()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "JIRA Ticket Creation",
+    "description": "",
+    "id": "jira-ticket-creation",
+    "keyword": "Feature",
+    "uri": "C:/Users/RT/eclipse-workspace/BDD/src/main/java/Features/JIRA.feature"
+  }
+]

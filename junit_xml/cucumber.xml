@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="86.278887">
+<testcase classname="JIRA Ticket Creation" name="Create a Formatting ticket in JIRA" time="86.278887">
+<system-out><![CDATA[Given user opens browser....................................................passed
+When user is on JIRA homepage...............................................passed
+Then enters username and password...........................................passed
+Then user clicks on Submit button...........................................passed
+Then clicks on Create button to create JIRA ticket..........................passed
+Then user enters information for JIRA ticket................................passed
+Then user creates JIRA ticket...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
